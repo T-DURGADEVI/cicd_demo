@@ -11,7 +11,7 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 # copy all files
-COPY ..
+COPY . .
 
 # Expose port to run the flask application
 EXPOSE 5000
